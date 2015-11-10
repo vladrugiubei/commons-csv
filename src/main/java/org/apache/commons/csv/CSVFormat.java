@@ -801,7 +801,7 @@ public final class CSVFormat implements Serializable {
                     try {
                         Thread.currentThread().sleep(1000);
                     } catch (InterruptedException e) {
-                    	System.out.println("Testing in progress.");
+                    	System.out.println('.');
                         break;
                     }
                 }        		
